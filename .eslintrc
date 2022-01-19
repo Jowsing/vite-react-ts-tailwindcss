@@ -1,0 +1,30 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": ["alloy", "alloy/react", "alloy/typescript"],
+  "globals": {
+    "BASE_HOST": true
+  },
+  "plugins": ["react-hooks", "prettier"],
+  "root": true,
+  "rules": {
+    "prettier/prettier": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/forbid-component-props": [
+      "error",
+      {
+        "forbid": ["id", "style"]
+      }
+    ],
+    "react/forbid-dom-props": [
+      "error",
+      {
+        "forbid": ["id", "style"]
+      }
+    ]
+  }
+}

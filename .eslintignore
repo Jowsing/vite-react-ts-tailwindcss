@@ -1,0 +1,16 @@
+/config
+
+# dependencies
+/node_modules
+
+# production
+/dist
+/public
+
+# misc
+.DS_Store
+
+# ide
+.idea
+.vscode
+.history
