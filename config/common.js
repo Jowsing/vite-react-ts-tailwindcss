@@ -1,10 +1,9 @@
-import react from '@vitejs/plugin-react';
+import plugins from "./plugins";
 
 export default {
   root: './',
   base: './',
   define: {},
-  plugins: [react()],
   server: {
     port: 8080,
   },
@@ -14,4 +13,5 @@ export default {
     assetsDir: 'assets',
     assetsInlineLimit: 4096,
   },
+  plugins,
 };
