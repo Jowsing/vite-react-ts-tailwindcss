@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --mode dev",
-    "build": "tsc && vite build --mode prod",
-    "preview": "vite preview"
+    "build": "tsc && vite build --mode prod"
   },
   "dependencies": {
     "classnames": "^2.3.1",
