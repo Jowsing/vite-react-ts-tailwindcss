@@ -4,7 +4,7 @@
     "node": true,
     "es6": true
   },
-  "extends": ["alloy", "alloy/react", "alloy/typescript"],
+  "extends": ["alloy", "alloy/react", "plugin:@typescript-eslint/recommended", "plugin:tailwind/recommended"],
   "globals": {
     "BASE_HOST": true
   },
@@ -17,13 +17,13 @@
     "react/forbid-component-props": [
       "error",
       {
-        "forbid": ["id", "style"]
+        "forbid": []
       }
     ],
     "react/forbid-dom-props": [
       "error",
       {
-        "forbid": ["id", "style"]
+        "forbid": []
       }
     ]
   }
